@@ -18,7 +18,7 @@ function App() {
         </a>
         <div className="nav-links">
           <a href="#work">Work</a>
-          <a href="#contact">Contact</a>
+          <a href="#contact">Contact</a><a href={`${import.meta.env.BASE_URL}Kofi_Reeves-Miller_Resume.pdf`} target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
         <a className="availability" href="mailto:kofireevesmiller@gmail.com">
           <i /> Available for work
@@ -80,7 +80,7 @@ function App() {
         <div className="footer-bottom">
           <span>© 2026 Kofi Reeves-Miller</span>
           <a href="tel:+14707862142">470-786-2142</a>
-          <a href="mailto:kofireevesmiller@gmail.com">kofireevesmiller@gmail.com</a>
+          <a href="mailto:kofireevesmiller@gmail.com">kofireevesmiller@gmail.com</a><a href={`${import.meta.env.BASE_URL}Kofi_Reeves-Miller_Resume.pdf`} target="_blank" rel="noopener noreferrer">Resume (PDF)</a>
         </div>
       </footer>
     </main>
